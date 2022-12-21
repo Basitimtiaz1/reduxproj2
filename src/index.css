@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.con{
+  display: flex;
+  align-items:center;
+  background-color: rgb(131, 127, 127);
+}
+.navLink{
+  color: wheat;
+  margin-left: 10px;
+}
+
+.cartCount{
+margin-left: 20px;
+flex-grow: 40;
+}
+.cardWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240);
+  
+}
+.cartCard{
+  display: flex;
+  flex-direction: row ;
+ 
+  background-color: rgb(235, 21, 21);
+ 
+}
+.productsWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240);
+  flex-wrap: wrap;
+}
+.card{
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
